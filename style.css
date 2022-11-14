@@ -1,3 +1,46 @@
-body {
-  background-color: #00c7fc;
+.main-text {
+ font-weight: 200;
+ font-size: 15px;
+ text-align: justify;
+ letter-spacing: -0.03em;
+ word-spacing: 0.3em;
+ line-height: 1.3em; 
+}
+
+.main-wrapper {
+ width: 1200px; 
+ margin: 0 auto;  /* auto는 남는 값을 나눠 가지라는 뜻 */
+}
+
+.div-pad { 
+  padding: 15px 30px 40px 50px;  
+}
+
+.div-margin {
+  margin: 10px
+}
+
+.brandstory {
+  width: 100px;
+  height: 5px;
+  background-color: gray;
+  display: inline-block;
+}
+.productdetail {
+  width: 100px;
+  height: 5px;
+  background-color: gray;
+  display: inline-block;
+}
+.event {
+  width: 100px;
+  height: 5px;
+  background-color: gray;
+  display: inline-block;
+}
+.notice {
+  width: 100px;
+  height: 5px;
+  background-color: gray;
+  display: inline-block;
 }

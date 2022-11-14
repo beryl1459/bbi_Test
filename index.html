@@ -11,9 +11,78 @@
   <meta property="og:title" content="고은비의 첫 과제 웹페이지">
   <meta property="og:description" content="과제로 먼저해보는 페이지입니다">
   <link href="bbi_style.css" rel="stylesheet" type="text/css" >
-
+ 
+  <!-- css, fonts -->
+ <link type="text/css" rel="stylesheet" href="style.css">
+ <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet" >
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
-  <h1>이 페이지는 내용 페이지 입니다.</h1>
+  <header>
+    <nav>
+      <section class="main-wrapper">
+      <div class="div-pad div-margin brandstory">브랜드스토리</div>  <!-- class 이름과 class 이름사이는 띄어쓰기 -->
+      <div class="div-pad div-margin productdetail">제품보기</div>
+      <div class="div-pad div-margin event">이벤트</div>
+      <div class="div-pad div-margin notice">공지사항</div>
+   </nav>
+  </header>
+  
+<article class="left_area">
+  <img id="main_img" src="drgroot_main_img.jpg" width="450" height="500" alt="닥터그루트 메인이미지입니다." > 
+</article>
+  
+<article class="right_area" style="display:block;">
+ <p class="brand_name">닥터그루트</p>
+ <main>
+   <h1>닥터그루트 센서티브 두피진정 샴푸</h1>
+ </main>  
+   <p class="righ_area_subheading">두피 가려움 이제 안녕 안녕!</p>
+</article>
+       
+<div>
+ <table>
+  <col style="width:80px">
+  <col style="width:200px">
+  <thead> <!--테이블 데이터 정의 -->
+      <tr>
+        <th colspan="2">기본정보</th>  <!--헤더 -->
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>판매가</td>
+        <td>29,0000원</td>
+      </tr>
+      <tr>
+        <td>배송비</td>
+        <td>무료</td>
+      </tr>
+   </tbody>
+   <tfoot>  <!--tfood는 symantic tag라서 어떤 구조적인 의미가 없어서 tr 적어줘야함 --> 
+      <tr> 
+        <td>옵션선택</td>
+        <td> 
+         <article>
+           <select name="option_select" id="option_shampoo">
+            <label for="option_shampoo">Choose a menu:</label> 
+            <option value="">-[필수]옵션 선택-</option>
+            <option value="shampoopackge">A.샴푸 패키지 </option>
+            <option value="sham+conditioner">B.샴푸+린스패키지</option>
+           </select>
+         </article>
+        </td>
+      </tr>
+   </tfoot>
+  </table>
+ </div>
+  <p class="info">(최소주문수량 1개 이상<span class=""> / 최대주문수량 100개 이하</span>)</p>
+
+
+
+  
 </body>
