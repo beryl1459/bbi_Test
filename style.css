@@ -44,3 +44,67 @@
   background-color: gray;
   display: inline-block;
 }
+
+.main_img {
+    width: 500px;
+    float: left;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.detail_box {
+    background-color: #f5f5dc;
+    width: 1140px ;
+    position: relative;
+    border: 1px solid green;
+    margin: 0 auto;
+    padding: 60px;
+    height: 500px;
+}
+
+.left_area {
+  float:left;
+}
+
+.right_area {
+  float:right;
+}
+
+.product_name {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    height: 60px;
+    line-height: 30px;
+    width: 500px;
+    padding: 0 0px 10px 0px;
+}
+
+.righ_area_subheading{
+  color: rgb(136, 136, 136);
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  height: 17px;
+  line-height: 17px;
+  width: 500px;
+}
+
+.under_area {
+  position: relative;
+  margin: 0px;
+  border-bottom: 1px solid #dedede;
+  padding: 0 0 10px;
+}
+
+td {
+    font-weight: normal;
+    color: black;
+    width: 115px;
+    padding: 25px 0 8px 9px;
+    text-align: left;
+    vertical-align: middle;
+}
+

@@ -20,69 +20,67 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
   
 </head>
-
 <body>
   <header>
-    <nav>
-      <section class="main-wrapper">
-      <div class="div-pad div-margin brandstory">브랜드스토리</div>  <!-- class 이름과 class 이름사이는 띄어쓰기 -->
-      <div class="div-pad div-margin productdetail">제품보기</div>
-      <div class="div-pad div-margin event">이벤트</div>
-      <div class="div-pad div-margin notice">공지사항</div>
-   </nav>
+      <nav>
+        <section class="main-wrapper">
+        <div class="div-pad div-margin brandstory">브랜드스토리</div>  <!-- class 이름과 class 이름사이는 띄어쓰기 -->
+        <div class="div-pad div-margin productdetail">제품보기</div>
+        <div class="div-pad div-margin event">이벤트</div>
+        <div class="div-pad div-margin notice">공지사항</div>
+     </nav>
   </header>
   
-<article class="left_area">
-  <img id="main_img" src="drgroot_main_img.jpg" width="450" height="500" alt="닥터그루트 메인이미지입니다." > 
-</article>
-  
-<article class="right_area" style="display:block;">
- <p class="brand_name">닥터그루트</p>
- <main>
-   <h1>닥터그루트 센서티브 두피진정 샴푸</h1>
- </main>  
-   <p class="righ_area_subheading">두피 가려움 이제 안녕 안녕!</p>
-</article>
-       
-<div>
- <table>
-  <col style="width:80px">
-  <col style="width:200px">
-  <thead> <!--테이블 데이터 정의 -->
-      <tr>
-        <th colspan="2">기본정보</th>  <!--헤더 -->
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>판매가</td>
-        <td>29,0000원</td>
-      </tr>
-      <tr>
-        <td>배송비</td>
-        <td>무료</td>
-      </tr>
-   </tbody>
-   <tfoot>  <!--tfood는 symantic tag라서 어떤 구조적인 의미가 없어서 tr 적어줘야함 --> 
-      <tr> 
-        <td>옵션선택</td>
-        <td> 
-         <article>
-           <select name="option_select" id="option_shampoo">
-            <label for="option_shampoo">Choose a menu:</label> 
-            <option value="">-[필수]옵션 선택-</option>
-            <option value="shampoopackge">A.샴푸 패키지 </option>
-            <option value="sham+conditioner">B.샴푸+린스패키지</option>
-           </select>
-         </article>
-        </td>
-      </tr>
-   </tfoot>
-  </table>
+<div class="detail_box">  
+  <div class="left_area">
+    <img id="main_img" src="drgroot_main_img.jpg" width="450"     
+     height="500" alt="닥터그루트 메인이미지입니다." > 
+  </div>
+
+ <div class="right_area">
+  <div class="under_area">
+   <main id="product_name">
+     <h1>닥터그루트 센서티브 두피진정 샴푸</h1> 
+   </main> 
+     <p class="righ_area_subheading">두피 가려움 이제 안녕 안녕!</p>
+  </div>
+   
+ <div>
+   <table>
+    <tbody>
+        <tr>
+          <td>판매가</td>
+          <td>29,0000원</td>
+        </tr>
+        <tr> 
+          <td>배송비</td>
+          <td>무료</td>
+        </tr>
+     </tbody>
+   </table>
+   <div class="under_area"></div>
+   <table>
+     <tbody>  <!--tfood는 symantic tag라서 어떤 구조적인 의미가 없어서 tr 적어줘야함 --> 
+        <tr> 
+          <td>옵션선택</td>
+          <td> 
+           <article>
+             <select name="option_select" id="option_shampoo">
+              <label for="option_shampoo">Choose a menu:</label> 
+              <option value="">-[필수]옵션 선택-</option>
+              <option value="shampoopackge">A.샴푸 패키지 </option>
+              <option value="sham+conditioner">B.샴푸+린스패키지</option>
+             </select>
+           </article>
+          </td>
+        </tr>
+     <tbody>
+    </table>
+    <div class="under_area"></div>
+    </div>
+      <p class="info">(최소주문수량 1개 이상<span class=""> / 최대주문수량 100개 이하</span>)</p>
  </div>
-  <p class="info">(최소주문수량 1개 이상<span class=""> / 최대주문수량 100개 이하</span>)</p>
-
-
+</div>
 
   
 </body>
