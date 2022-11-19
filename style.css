@@ -8,39 +8,15 @@
 }
 
 .main-wrapper {
- width: 1200px; 
- margin: 0 auto;  /* auto는 남는 값을 나눠 가지라는 뜻 */
+  width: 1200px; 
+  margin: 0 auto;  /* auto는 남는 값을 나눠 가지라는 뜻 */
 }
 
-.div-pad { 
-  padding: 15px 30px 40px 50px;  
-}
-
-.div-margin {
-  margin: 10px
-}
-
-.brandstory {
-  width: 100px;
-  height: 5px;
-  background-color: gray;
-  display: inline-block;
-}
-.productdetail {
-  width: 100px;
-  height: 5px;
-  background-color: gray;
-  display: inline-block;
-}
-.event {
-  width: 100px;
-  height: 5px;
-  background-color: gray;
-  display: inline-block;
-}
-.notice {
-  width: 100px;
-  height: 5px;
+.brandstory, .productdetail, .event, .notice {
+  padding: 15px 30px 30px 50px;   
+  text-align : center;
+  margin-block: 10px;
+  height: 20px;
   background-color: gray;
   display: inline-block;
 }
